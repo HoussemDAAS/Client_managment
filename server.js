@@ -1,6 +1,6 @@
 
 import  Express  from "express";
-import router from "./src/services/routes";
+import router from "./src/routes";
 import StatusCodes from "http-status-codes";
 const app= Express();
 const port= 3000;
